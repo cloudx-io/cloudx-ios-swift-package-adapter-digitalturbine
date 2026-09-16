@@ -11,11 +11,11 @@ permissions:
 
 jobs:
   package:
-    runs-on: macos-15
+    runs-on: macos-26
     steps:
       - uses: actions/checkout@v5
-      - name: Select Xcode 16
-        run: sudo xcode-select --switch /Applications/Xcode_16.4.app
+      - name: Select Xcode 26
+        run: sudo xcode-select --switch /Applications/Xcode_26.4.app
       - name: Validate manifest
         run: swift package dump-package
       - name: Resolve dependencies
@@ -38,6 +38,6 @@ jobs:
       - name: Verify artifact checksum
         run: |
           curl --fail --location --output /tmp/CloudXDigitalTurbineAdapter.xcframework.zip \
-            https://github.com/cloudx-io/cloudx-ios/releases/download/adapter-digitalturbine/8.4.8.0/CloudXDigitalTurbineAdapter.xcframework.zip
+            https://github.com/cloudx-io/cloudx-ios/releases/download/adapter-digitalturbine/8.4.10.0/CloudXDigitalTurbineAdapter.xcframework.zip
           test "$(swift package compute-checksum /tmp/CloudXDigitalTurbineAdapter.xcframework.zip)" = \
-            "b0e61fe37e245923c3544e2db26f252bc6643952895d8cd999db7be9c2688e5b"
+            "49a68c87e262b7ac64ea03b77200cefaac8314a5b141ffad9bfea6eaaafdd0b9"

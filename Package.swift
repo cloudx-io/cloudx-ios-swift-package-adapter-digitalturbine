@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "CloudXDigitalTurbineAdapter",
     platforms: [
-        .iOS(.v13),
+        .iOS(.v15),
     ],
     products: [
         .library(
@@ -20,14 +20,14 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/inner-active/DTExchangeSDK-iOS-SPM.git",
-            exact: "8.4.8"
+            exact: "8.4.10"
         ),
     ],
     targets: [
         .binaryTarget(
             name: "CloudXDigitalTurbineAdapter",
-            url: "https://github.com/cloudx-io/cloudx-ios/releases/download/adapter-digitalturbine/8.4.8.0/CloudXDigitalTurbineAdapter.xcframework.zip",
-            checksum: "b0e61fe37e245923c3544e2db26f252bc6643952895d8cd999db7be9c2688e5b"
+            url: "https://github.com/cloudx-io/cloudx-ios/releases/download/adapter-digitalturbine/8.4.10.0/CloudXDigitalTurbineAdapter.xcframework.zip",
+            checksum: "49a68c87e262b7ac64ea03b77200cefaac8314a5b141ffad9bfea6eaaafdd0b9"
         ),
         .target(
             name: "CloudXDigitalTurbineAdapterPackage",

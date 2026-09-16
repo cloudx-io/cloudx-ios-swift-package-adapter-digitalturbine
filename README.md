@@ -4,8 +4,8 @@ This repository distributes the Digital Turbine adapter for the CloudX iOS SDK.
 
 ## Requirements
 
-- iOS 13 or later
-- Xcode 15 or later
+- iOS 15 or later for the current release
+- Xcode 26.1 or later for the current release
 - CloudX Core 3.9.1 or later
 
 ## Installation
@@ -24,7 +24,10 @@ flag to retain the adapter registration code.
 
 | Package version | CloudX adapter | Digital Turbine SDK |
 | --- | --- | --- |
+| `8041000.0.0` | `8.4.10.0` | `8.4.10` |
 | `8040800.0.0` | `8.4.8.0` | `8.4.8` |
+
+Package `8040800.0.0` supports iOS 13 and Xcode 15 or later.
 
 The package installs CloudX Core and Digital Turbine SDK as dependencies. Import
 `CloudXCore` in the application. The adapter registers when the application
