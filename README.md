@@ -27,7 +27,8 @@ flag to retain the adapter registration code.
 | `8041000.0.0` | `8.4.10.0` | `8.4.10` |
 | `8040800.0.0` | `8.4.8.0` | `8.4.8` |
 
-Package `8040800.0.0` supports iOS 13 and Xcode 15 or later.
+Package `8040800.0.0` supports iOS 13 but still requires Xcode 26.1 or later
+because the upstream binary uses the newer Swift runtime.
 
 The package installs CloudX Core and Digital Turbine SDK as dependencies. Import
 `CloudXCore` in the application. The adapter registers when the application
