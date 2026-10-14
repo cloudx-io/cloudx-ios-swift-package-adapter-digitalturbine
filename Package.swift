@@ -26,8 +26,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "CloudXDigitalTurbineAdapter",
-            url: "https://github.com/cloudx-io/cloudx-ios/releases/download/adapter-digitalturbine/8.4.10.0/CloudXDigitalTurbineAdapter.xcframework.zip",
-            checksum: "49a68c87e262b7ac64ea03b77200cefaac8314a5b141ffad9bfea6eaaafdd0b9"
+            url: "https://github.com/cloudx-io/cloudx-ios-swift-package-adapter-digitalturbine/releases/download/binary/8041001.0.0/CloudXDigitalTurbineAdapter.xcframework.zip",
+            checksum: "c7b793d084d1562bb6b3b3f1dbd43e335370b8501da5d5421abaf857fe013af3"
         ),
         .target(
             name: "CloudXDigitalTurbineAdapterPackage",
