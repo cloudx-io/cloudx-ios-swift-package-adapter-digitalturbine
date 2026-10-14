@@ -24,6 +24,7 @@ flag to retain the adapter registration code.
 
 | Package version | CloudX adapter | Digital Turbine SDK |
 | --- | --- | --- |
+| `8041001.0.0` | `8.4.10.1` | `8.4.10` |
 | `8041000.0.0` | `8.4.10.0` | `8.4.10` |
 | `8040800.0.0` | `8.4.8.0` | `8.4.8` |
 
