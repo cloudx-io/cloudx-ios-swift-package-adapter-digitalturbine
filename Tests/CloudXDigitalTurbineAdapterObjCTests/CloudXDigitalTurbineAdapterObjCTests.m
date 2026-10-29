@@ -8,7 +8,7 @@
 @implementation CloudXDigitalTurbineAdapterObjCTests
 
 - (void)testAdapterIsLinkedAndRegistered {
-    XCTAssertEqualObjects(CLXDigitalTurbineAdapterVersion, @"8.4.10.1");
+    XCTAssertEqualObjects(CLXDigitalTurbineAdapterVersion, @"8.5.1.0");
     XCTAssertNotNil(NSClassFromString(@"CLXDigitalTurbineInitializer"));
 }
 
