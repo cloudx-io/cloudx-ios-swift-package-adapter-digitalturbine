@@ -20,14 +20,14 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/inner-active/DTExchangeSDK-iOS-SPM.git",
-            exact: "8.4.10"
+            exact: "8.5.1"
         ),
     ],
     targets: [
         .binaryTarget(
             name: "CloudXDigitalTurbineAdapter",
-            url: "https://github.com/cloudx-io/cloudx-ios-swift-package-adapter-digitalturbine/releases/download/binary/8041001.0.0/CloudXDigitalTurbineAdapter.xcframework.zip",
-            checksum: "c7b793d084d1562bb6b3b3f1dbd43e335370b8501da5d5421abaf857fe013af3"
+            url: "https://github.com/cloudx-io/cloudx-ios-swift-package-adapter-digitalturbine/releases/download/binary/8050100.0.0/CloudXDigitalTurbineAdapter.xcframework.zip",
+            checksum: "88c63f5a64823fd1735c3166a857a98ac98b0edc6ed632b4ba59f23938c8040a"
         ),
         .target(
             name: "CloudXDigitalTurbineAdapterPackage",

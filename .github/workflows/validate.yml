@@ -38,6 +38,6 @@ jobs:
       - name: Verify artifact checksum
         run: |
           curl --fail --location --output /tmp/CloudXDigitalTurbineAdapter.xcframework.zip \
-            https://github.com/cloudx-io/cloudx-ios-swift-package-adapter-digitalturbine/releases/download/binary/8041001.0.0/CloudXDigitalTurbineAdapter.xcframework.zip
+            https://github.com/cloudx-io/cloudx-ios-swift-package-adapter-digitalturbine/releases/download/binary/8050100.0.0/CloudXDigitalTurbineAdapter.xcframework.zip
           test "$(swift package compute-checksum /tmp/CloudXDigitalTurbineAdapter.xcframework.zip)" = \
-            "c7b793d084d1562bb6b3b3f1dbd43e335370b8501da5d5421abaf857fe013af3"
+            "88c63f5a64823fd1735c3166a857a98ac98b0edc6ed632b4ba59f23938c8040a"
